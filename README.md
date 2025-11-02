@@ -28,7 +28,11 @@ Tasks are saved automatically in LocalStorage
 
 Previous tasks appear automatically on reload
 
-Add, delete, and mark tasks as complete
+Add, delete,edit and mark tasks as complete
+
+Logout Functionality
+
+Logs out the current user and redirects to login page
 
 🧠 Tech Stack
 
