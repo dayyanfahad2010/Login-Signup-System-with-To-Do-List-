@@ -36,7 +36,7 @@ HTML5
 
 CSS3
 
-Vanilla JavaScript (ES6+)
+JavaScript (ES6+)
 
 LocalStorage API
 
