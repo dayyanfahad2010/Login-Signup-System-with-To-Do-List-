@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/login.png">
+    <style>
+        .main{
+            margin: 202px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert-overlay" id="alertOverlay">
+        <div id="alertBox">
+            <div id="alertIcon">Error</div>
+            <div id="alertMessage">Hello Dayyan</div>
+            <button id="close-alert" onclick="closeAlert()">OK</button>
+        </div>
+    </div>
+    <div class="main">
+        <input type="email/text" placeholder="Enter Your Email or Username" id="register_email_username"><br>
+        <input type="password" placeholder="Enter Your Password" id="register_password"><br>
+        <button onclick="matchData(event)">Login</button><br>
+        <a href="signup.html">Don't have an account</a>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>

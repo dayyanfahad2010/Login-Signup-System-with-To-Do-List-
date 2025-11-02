@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    margin: 140px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: 350px;
+    border: 2px solid gray;
+}
+input{
+    width: 19rem;
+    padding: 10px 30px;
+    background-color: whitesmoke; 
+    font-weight: 600;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background: none;
+    transition: 1s;
+}
+button:hover{
+    background: rgba(3, 181, 252, 0.781);
+    border: 2px solid rgba(12, 78, 163, 0.781);
+}
+a{
+    color: rgb(71, 71, 241);
+    text-decoration: none;
+}
+#alertMessage{
+    position: absolute;
+    top: 50px;
+}
+#alertIcon{
+    position: absolute;
+    top: 20px;
+}
+#alertBox{
+    background-color: rgba(3, 184, 255, 0.781);
+    padding: 10px;
+    position: relative;
+    min-height: 80px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    animation: slideIn 1s ease forwards;
+}
+@keyframes FadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.alert-overlay{
+    display: none;
+    /* text-align: center; */
+    width: 400px;
+    min-height: 80px;
+    margin: 2px auto;
+    position: relative;
+    animation: FadeIn 1s ease forwards;
+}
+#close-alert{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+    background: #007BFF;
+    border: #007BFF;
+    color: white;
+}
+#close-alert:hover{
+    background: #0056b3;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #007BFF, #00C6FF);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdcdc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0056b3, #0096c7);
+}

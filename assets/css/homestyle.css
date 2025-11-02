@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 84.3vh;
+     background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 20px ;
+    font-size: 35px;
+    color: rgb(11, 145, 138);
+}
+.logout{
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background: none;
+    transition: 1s;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.logout:hover{
+    background: rgba(3, 181, 252, 0.781);
+    border: 2px solid rgba(12, 78, 163, 0.781);
+}
+.main1{
+    width: 500px;
+    margin: 100px auto;
+    justify-content: center;
+    border: 2px solid rgba(12, 78, 163, 0.781);
+    border-radius: 20px;
+    padding: 30px 0;
+}
+input{
+    width: 19rem;
+    padding: 12px 30px;
+    /* background: none; */
+    font-weight: 600;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 20px 15px 20px 35px;
+}
+.button{
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background: none;
+    transition: 1s;
+}
+.button:hover{
+    background: rgba(3, 181, 252, 0.781);
+    border: 2px solid rgba(12, 78, 163, 0.781);
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: #3fa83b;
+    cursor: pointer;
+}
+.edit img{
+    width: 100%;
+}
+.edit{
+    width: 50px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 90px;
+    top: -1px;
+}
+.del img{
+    width: 100%;
+    
+}
+.del{
+    width: 50px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 30px;
+    top: -1px;
+}
+.para{
+    position: relative;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #007BFF, #00C6FF);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdcdc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0056b3, #0096c7);
+}
